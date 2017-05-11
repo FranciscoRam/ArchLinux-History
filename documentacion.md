@@ -12,7 +12,8 @@ sudo pacman -S python-pip
 
 
 **rar**: 
-```sh sudo pacman -S p7zip zip unzip unrar 
+```sh 
+sudo pacman -S p7zip zip unzip unrar 
 ```
 
 
@@ -61,7 +62,8 @@ st example.sh
 Para la instalacion de spotify se encontraron muchos probelmas entre ellos estuvieron:
 
 *   yaourt no se conectaba con el servidor, para corregir esto accederemos a archivo grub 
-```sudo nano /etc/default/grub 
+```sudo 
+nano /etc/default/grub 
 ```
 cambiaremos la siguiente parte
 
@@ -86,13 +88,18 @@ yaourt -S spotify
 ## Instalar Android Studio y Genymotion
 
 **Importante**: Antes de ver el video que de como instalarlo es importante verificar el espacion que tiene tu tmpfs esto lo verificaremos con 
-```df -h```
-esto lo menciono debido a que de ser insuficiente el espacio en tmpfs al tratar de instalar android studio te marcare un error debido a espacio insuficiente para ello vamos a aumentar temporalmente el espacio que tiene, el maximo que puedes aumentar ser igual a tu memoria ram.
+```
+df -h
+```
+esto lo menciono debido a que de ser insuficiente el espacio en tmpfs al tratar de instalar android studio te marcare un error debido a espacio insuficiente para ello vamos a aumentar temporalmente el espacio que tiene, el maximo que puedes aumentar ser igual a tu memoria ram, una vez reiniciada la computadora este espacion regresara a lo que tenia anteriormente.
 ```sh
 sudo mount -o remount,size=4G /tmp
 ```
 
 **Enlace de video sobre como instalarlo**
+
+
+![How to install a Android development environment](https://www.youtube.com/watch?v=2EGDIOpp088&list=PL7GYLzJcFl5McgMTp2ve_d6tqMq78ReaE&index=115)
 
 ## Grabador de pantalla
 Cualquiera de los dos siguientes sirve
