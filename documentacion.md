@@ -33,13 +33,13 @@ sudo pacman -S p7zip zip unzip unrar
 ## Sublime Text
 **Instalar**
 ```sh
-**Sublime text**: yaourt -S sublime-text-dev
+yaourt -S sublime-text-dev
 ```
 
 
 **Crear enlace simbolico**: Al instalar sublime text con yaourt se instala como un software mas, no nos permite acceder a el desde consola como un editar, tal es el caso de kate y nano que si lo hace, para ello crearemos un enlace simbolico al ejecutable de sublime text para poder usarlo como un editor mas de la consola
 
-```sh
+```c
 sudo ln -s /opt/sublime_text_3/sublime_text /usr/bin/st
 
 //st: es el nombre con el que se abrira en la consola ejemplo 
