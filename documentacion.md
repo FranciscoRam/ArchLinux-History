@@ -29,8 +29,8 @@ sudo pacman -S p7zip zip unzip unrar
 
 ## Software Instalados en Arch Linux (Antergos).
 
+### Sublime Text
 
-## Sublime Text
 **Instalar**
 ```sh
 yaourt -S sublime-text-dev
@@ -50,13 +50,10 @@ st example.sh
 ```
 
 
-**Documentación**: Algunas ligas/formas para complementos/plugins que serviran en nuestro sublime text.
+**Documentación**: La siguiente es una liga sobre algunas ligas/formas para complementos/plugins que serviran en nuestro sublime text.
 
+[Plugins Sublime](https://github.com/FranciscoRam/ArchLinux-History/blob/master/plug-sublime.md)
 
-**Package Control**: Es indispensable para poder instalar plugins en nuestro sublime_text.
-
-
-![Package Control](http://docs.sublimetext.info/en/latest/getting_started/install.html)
 
 ### Spotify
 Para la instalacion de spotify se encontraron muchos probelmas entre ellos estuvieron:
@@ -99,7 +96,7 @@ sudo mount -o remount,size=4G /tmp
 **Enlace de video sobre como instalarlo**
 
 
-![How to install a Android development environment](https://www.youtube.com/watch?v=2EGDIOpp088)
+[How to install a Android development environment](https://www.youtube.com/watch?v=2EGDIOpp088)
 
 ## Grabador de pantalla
 Cualquiera de los dos siguientes sirve
