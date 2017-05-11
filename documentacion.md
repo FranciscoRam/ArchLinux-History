@@ -68,7 +68,7 @@ nano /etc/default/grub
 cambiaremos la siguiente parte
 
 ```
-GRUB_CMDLINE_LINUX=""***
+GRUB_CMDLINE_LINUX=""
 ```
 por 
 ```
@@ -99,7 +99,7 @@ sudo mount -o remount,size=4G /tmp
 **Enlace de video sobre como instalarlo**
 
 
-![How to install a Android development environment](https://www.youtube.com/watch?v=2EGDIOpp088&list=PL7GYLzJcFl5McgMTp2ve_d6tqMq78ReaE&index=115)
+![How to install a Android development environment](https://www.youtube.com/watch?v=2EGDIOpp088)
 
 ## Grabador de pantalla
 Cualquiera de los dos siguientes sirve
