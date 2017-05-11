@@ -2,11 +2,13 @@
 
 **pip**: 
 ```sh 
-sudo pacman -S python-pip ```
+sudo pacman -S python-pip 
+```
 
 **pygame**: 
 ```sh
- python3 -m pip install pygame --user ```
+ python3 -m pip install pygame --user 
+ ```
 
 
 **rar**: 
@@ -51,12 +53,18 @@ st example.sh
 
 
 **Package Control**: Es indispensable para poder instalar plugins en nuestro sublime_text.
+
+
 ![Package Control](http://docs.sublimetext.info/en/latest/getting_started/install.html)
 
 ### Spotify
 Para la instalacion de spotify se encontraron muchos probelmas entre ellos estuvieron:
 
-*   yaourt no se conectaba con el servidor, para corregir esto accederemos a archivo grub ***sudo nano /etc/default/grub ***, cambiaremos la parte de ***
+*   yaourt no se conectaba con el servidor, para corregir esto accederemos a archivo grub 
+```sudo nano /etc/default/grub 
+```
+cambiaremos la siguiente parte
+
 ```
 GRUB_CMDLINE_LINUX=""***
 ```
@@ -76,6 +84,13 @@ yaourt -S spotify
 ```
 
 ## Instalar Android Studio y Genymotion
+
+**Importante**: Antes de ver el video que de como instalarlo es importante verificar el espacion que tiene tu tmpfs esto lo verificaremos con 
+```df -h```
+esto lo menciono debido a que de ser insuficiente el espacio en tmpfs al tratar de instalar android studio te marcare un error debido a espacio insuficiente para ello vamos a aumentar temporalmente el espacio que tiene, el maximo que puedes aumentar ser igual a tu memoria ram.
+```sh
+sudo mount -o remount,size=4G /tmp
+```
 
 **Enlace de video sobre como instalarlo**
 
